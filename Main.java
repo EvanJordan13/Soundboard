@@ -15,7 +15,7 @@ public class Main extends JFrame implements ActionListener { // create class wit
     JPanel panel1, panel2, panel3, panel4, panel5, panel6, panel7, panel8, panel9, panel10, panel11, panel12, panel13, panel14, panel15, panel16;                  //Create panels
      
      frame = new JFrame("Soundboard");                //Create the window of the soundboard
-     button1 = new JButton("I'll be back");      //Button creation
+     button1 = new JButton("test");      //Button creation
      button2 = new JButton("I'll be back");     //Button creation   
      button3 = new JButton("I'll be back");     //Button creation
      button4 = new JButton("I'll be back");     //Button creation
