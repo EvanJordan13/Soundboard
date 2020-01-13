@@ -1,2 +1,2 @@
 # Soundboard
-Simple sound board with functionality to add and playback audio files on demand.
+Simple sound board with functionality to press one of 15 buttons to playback .WAV audio files on demand.
