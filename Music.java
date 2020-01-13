@@ -1,3 +1,8 @@
+import java.io.File;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
 
 
 public class Music {
@@ -10,7 +15,9 @@ public class Music {
           if (musicPath.exists()) {
                   AudioInputStream audioInput = AudioSystem.getAudioInputStream(musicPath);
                   Clip clip = AudioSystem.getClip();
+                  clip.open(audioInput);
                   clip.start();
+                  //JOptionPane.showMessageDialog(null, "Press OK to stop playing");
 
                   
 
@@ -19,7 +26,7 @@ public class Music {
 
           }
 
-      } catch(exeption ex){
+      } catch(Exception ex){
           ex.printStackTrace();
       }
     }
